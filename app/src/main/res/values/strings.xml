@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidBasics</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="click_next_activity">Click on Next button to go to SecondActivity</string>
+    <string name="next_button_first_activity">Next Activity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="click_prev_activity">Click button below to go to FirstActivity</string>
+    <string name="prev_button_second_activity">Previous Activity</string>
+</resources>
