@@ -10,6 +10,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import basics.com.dee.intent.FirstActivity;
+import basics.com.dee.intent.ImplicitIntentActivity;
 
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
@@ -24,14 +25,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         listViewMain = (ListView) findViewById(R.id.listViewMain);
 
-        String[] values = new String[]{"1) Simple Activity Intent Example"};
+        String[] values = new String[]{"1) Explicit Intent","2) Implicit Intent"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, android.R.id.text1, values);
 
         listViewMain.setAdapter(adapter);
         listViewMain.setOnItemClickListener(this);
-
 
     }
 
@@ -40,6 +40,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         switch (position) {
             case 0:
                 intent = new Intent(this, FirstActivity.class);
+                startActivity(intent);
+                break;
+            case 1:
+                intent = new Intent(this, ImplicitIntentActivity.class);
                 startActivity(intent);
                 break;
             default:
