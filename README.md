@@ -19,7 +19,7 @@ Author: Deepak Atal (deepak.atal@nyu.edu)
   <img src="https://github.com/deepakatal/AndroidBasics/blob/master/Snapshots/1_Intent_SecondActivity.png" width="250px"/>
 </p>
 
-###1) Implicit Intent Example:
+###2) Implicit Intent Example:
   [ImplicitIntentActivity](https://github.com/deepakatal/AndroidBasics/blob/master/app/src/main/java/basics/com/dee/intent/ImplicitIntentActivity.java) is used to fire Implicit intent's to perform various functions such as: 
 <p align="center" >
   <img src="https://github.com/deepakatal/AndroidBasics/blob/master/Snapshots/2_ImplicitIntentHomePage.png" width="250px"/>
